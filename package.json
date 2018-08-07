@@ -1,0 +1,30 @@
+{
+  "name": "moscatesting",
+  "version": "1.0.0",
+  "description": "Test mosca mqtt broker with latest mongodb driver and server versions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravenOSS/moscaTesting.git"
+  },
+  "keywords": [
+    "mosca",
+    "mqtt",
+    "mongodb"
+  ],
+  "author": "ravenOSS / David Richards",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ravenOSS/moscaTesting/issues"
+  },
+  "homepage": "https://github.com/ravenOSS/moscaTesting#readme",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "mongodb": "^3.1.1",
+    "mosca": "^2.8.3",
+    "mqtt": "^2.18.3"
+  }
+}
